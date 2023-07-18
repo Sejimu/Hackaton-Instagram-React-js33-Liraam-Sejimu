@@ -1,7 +1,7 @@
 import React from "react";
 
 function AddPostsPage() {
-  return <div>AddPostsPage</div>;
+  return <div className="container">AddPostsPage</div>;
 }
 
 export default AddPostsPage;
