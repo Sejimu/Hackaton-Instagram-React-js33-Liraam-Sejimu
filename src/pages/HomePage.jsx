@@ -1,8 +1,12 @@
 import React from "react";
-import { usePostsContext } from "../contexts/PostsContext";
+import PostsList from "../components/PostsList";
 
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <div className="container">
+      <PostsList />
+    </div>
+  );
 }
 
 export default HomePage;
